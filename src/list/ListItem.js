@@ -76,7 +76,7 @@ const ListItem = props => {
 
   return (
     <Component {...attributes} {...scaleProps} disabled={disabled}>
-      {topDivider && <Divider />}
+     
       <PadView
         Component={ViewComponent}
         {...linearGradientProps}
@@ -155,7 +155,7 @@ const ListItem = props => {
         {checkmark && <Checkmark color={checkmarkColor} />}
         {chevron && <Chevron color={chevronColor} />}
       </PadView>
-      {bottomDivider && <Divider />}
+      
     </Component>
   );
 };
